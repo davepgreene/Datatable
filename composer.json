@@ -1,14 +1,19 @@
 {
-    "name": "chumper/datatable",
-    "description": "This is a laravel 4 package for the server and client side of datatablaes at http://datatables.net/",
-    "keywords" : ["laravel","datatables", "ajax", "jquery"],
+    "name": "davepgreene/datatable",
+    "description": "This is a fork of chumper/datatable targeted for laravel 5",
+    "keywords" : ["laravel 5","datatables", "ajax", "jquery"],
     "license": "MIT",
-    "homepage": "http://github.com/Chumper/datatable",
+    "homepage": "https://github.com/davepgreene/Datatable",
     "authors": [
         {
             "name": "Nils Plaschke",
             "email": "github@nilsplaschke.de",
             "homepage": "http://nilsplaschke.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Dave Greene",
+            "homepage": "https://github.com/davepgreene",
             "role": "Developer"
         }
     ],
@@ -20,19 +25,12 @@
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
-        "mockery/mockery": "dev-master",
-        "orchestra/testbench": "2.1.*"
+        "orchestra/testbench": "~3.0",
+        "mockery/mockery": "^0.9.4"
     },
     "autoload": {
         "psr-0": {
             "Chumper\\Datatable": "src/"
         }
-    },
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git://github.com/orchestral/phpseclib.git"
-        }
-    ]
+    }
 }
