@@ -523,7 +523,7 @@ abstract class BaseEngine {
      */
     protected function take($value)
     {
-        $this->limit = $value;
+        $this->limit = ($value >= 0) ? $value : null;
     }
 
     public function getNameByIndex($index)
